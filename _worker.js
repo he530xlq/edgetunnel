@@ -1209,7 +1209,7 @@ function checkSUB(host) {
 			'qa.visamiddleeast.com',
 			'time.is',
 			'www.wto.org:8443',
-			'chatgpt.com:2087',
+			'cmcc.090227.xyz:2087',
 			'icook.hk',
 			//'104.17.0.0#IPv4',
 			'[2606:4700::]#IPv6'
