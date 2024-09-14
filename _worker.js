@@ -50,12 +50,12 @@ let addresses = [
 	'www.wto.org:8443',
 	'cmcc.090227.xyz:2087',
 	'icook.hk',
-	'104.17.0.0#IPv4',
-	'[2606:4700::]#IPv6'
         'xyz.xlq666.eu.org:8443',
 	'www.xwsxs.com:443',
         'www.iios.me:2087',
-	*/
+	'104.17.0.0#IPv4',
+	'[2606:4700::]#IPv6'
+        */
 ];
 let addressesapi = [];
 let addressesnotls = [
@@ -1214,11 +1214,11 @@ function checkSUB(host) {
 			'www.wto.org:8443',
 			'cmcc.090227.xyz:2087',
 			'icook.hk',
-			//'104.17.0.0#IPv4',
-			'[2606:4700::]#IPv6'
 			'xyz.xlq666.eu.org:8443',
 	                'www.xwsxs.com:443',
                         'www.iios.me:2087',
+			//'104.17.0.0#IPv4',
+			'[2606:4700::]#IPv6'
 		];
 		if (host.includes(".workers.dev")) addressesnotls = [
 			'usa.visa.com:2095',
